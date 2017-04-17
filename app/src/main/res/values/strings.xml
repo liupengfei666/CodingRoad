@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">CodingRode</string>
+
+    <string name="navigation_drawer_open">打开</string>
+    <string name="navigation_drawer_close">关闭</string>
+    <string name="bottom_navigation_bar">底部导航栏</string>
+    <string name="BottomNavigationView">BottomNavigationView</string>
+    <string name="TabLayout">TabLayout</string>
+    <string name="RadioButton">RadioButton</string>
 </resources>

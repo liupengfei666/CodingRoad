@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">CodingRode</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="bottom_navigation_bar">Bottom navigation bar</string>
+    <string name="BottomNavigationView">BottomNavigationView</string>
+    <string name="RadioButton">RadioButton</string>
+</resources>
