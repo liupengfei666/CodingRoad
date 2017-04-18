@@ -7,4 +7,9 @@
     <string name="BottomNavigationView">BottomNavigationView</string>
     <string name="TabLayout">TabLayout</string>
     <string name="RadioButton">RadioButton</string>
+    <string name="Normal">Normal</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="Share">Share</string>
 </resources>

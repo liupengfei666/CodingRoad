@@ -1,5 +1,6 @@
 package com.lewis.codingrode.base;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 
 /**
@@ -8,4 +9,9 @@ import android.support.v7.app.AppCompatActivity;
  */
 
 public class BaseActivity extends AppCompatActivity{
+
+    protected void startActivity(Class clazz){
+        Intent intent = new Intent(this, clazz);
+        startActivity(intent);
+    }
 }
