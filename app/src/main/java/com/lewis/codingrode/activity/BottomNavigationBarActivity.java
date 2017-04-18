@@ -29,6 +29,7 @@ public class BottomNavigationBarActivity extends BaseActivity implements View.On
     }
 
     private void initView() {
+        //http://www.qingpingshan.com/rjbc/az/177936.html
         mBottomNavigationView = mBinding.tvBottomNavigationView;
         mTabLayout = mBinding.tvTabLayout;
         mRadioButton = mBinding.tvRadioButton;
