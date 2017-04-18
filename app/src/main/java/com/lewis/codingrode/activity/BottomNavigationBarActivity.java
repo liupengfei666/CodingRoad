@@ -49,7 +49,7 @@ public class BottomNavigationBarActivity extends BaseActivity implements View.On
                 startActivity(BottomNavigationViewActivity.class);
                 break;
             case R.id.tv_tab_layout:
-
+                startActivity(TabLayoutActivity.class);
                 break;
             case R.id.tv_radio_button:
 

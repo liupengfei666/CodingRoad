@@ -18,6 +18,7 @@
         </activity>
         <activity android:name=".activity.BottomNavigationBarActivity"/>
         <activity android:name=".activity.BottomNavigationViewActivity"/>
+        <activity android:name=".activity.TabLayoutActivity"/>
     </application>
 
 </manifest>
