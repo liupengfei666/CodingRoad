@@ -11,4 +11,8 @@
     <string name="title_dashboard">Dashboard</string>
     <string name="title_notifications">Notifications</string>
     <string name="Share">Share</string>
+    <string name="wechat">Wechat</string>
+    <string name="contracts">Contracts</string>
+    <string name="discovery">Discovery</string>
+    <string name="me">Me</string>
 </resources>

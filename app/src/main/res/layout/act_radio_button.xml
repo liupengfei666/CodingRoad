@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <android.support.v4.view.ViewPager
+            android:id="@+id/viewPager"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+        <RadioGroup
+            android:id="@+id/radioGroup"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:orientation="horizontal"
+            android:background="@android:color/white">
+
+            <RadioButton
+                android:id="@+id/rb_chat"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableTop="@drawable/message_selector"
+                android:checked="true"
+                android:text="@string/wechat"
+                style="@style/style_RadioButton"/>
+            <RadioButton
+                android:id="@+id/rb_contacts"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableTop="@drawable/contacts_selector"
+                android:text="@string/contracts"
+                style="@style/style_RadioButton"/>
+            <RadioButton
+                android:id="@+id/rb_discovery"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableTop="@drawable/discovery_selector"
+                android:text="@string/discovery"
+                style="@style/style_RadioButton"/>
+            <RadioButton
+                android:id="@+id/rb_me"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableTop="@drawable/me_selector"
+                android:text="@string/me"
+                style="@style/style_RadioButton"/>
+        </RadioGroup>
+    </LinearLayout>
+</layout>
