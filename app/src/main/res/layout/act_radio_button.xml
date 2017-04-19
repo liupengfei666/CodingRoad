@@ -18,30 +18,22 @@
 
             <RadioButton
                 android:id="@+id/rb_chat"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
                 android:drawableTop="@drawable/message_selector"
                 android:checked="true"
                 android:text="@string/wechat"
                 style="@style/style_RadioButton"/>
             <RadioButton
                 android:id="@+id/rb_contacts"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
                 android:drawableTop="@drawable/contacts_selector"
                 android:text="@string/contracts"
                 style="@style/style_RadioButton"/>
             <RadioButton
                 android:id="@+id/rb_discovery"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
                 android:drawableTop="@drawable/discovery_selector"
                 android:text="@string/discovery"
                 style="@style/style_RadioButton"/>
             <RadioButton
                 android:id="@+id/rb_me"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
                 android:drawableTop="@drawable/me_selector"
                 android:text="@string/me"
                 style="@style/style_RadioButton"/>

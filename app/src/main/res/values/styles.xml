@@ -18,11 +18,13 @@
     </style>
 
     <style name="style_RadioButton">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
         <item name="android:button">@null</item>
-        <item name="android:layout_weight">0.25</item>
+        <item name="android:layout_weight">1</item>
         <item name="android:gravity">center</item>
         <item name="android:textColor">@color/wechat_text_color_selector</item>
-        <item name="android:textSize">12sp</item>
-        <item name="android:paddingTop">5dp</item>
+        <item name="android:textSize">13sp</item>
+        <item name="android:padding">5dp</item>
     </style>
 </resources>
