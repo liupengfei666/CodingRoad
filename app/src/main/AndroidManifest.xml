@@ -20,6 +20,7 @@
         <activity android:name=".activity.BottomNavigationViewActivity"/>
         <activity android:name=".activity.TabLayoutActivity"/>
         <activity android:name=".activity.RadioButtonActivity"/>
+        <activity android:name=".activity.NormalActivity"/>
     </application>
 
 </manifest>
