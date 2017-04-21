@@ -21,6 +21,7 @@
         <activity android:name=".activity.TabLayoutActivity"/>
         <activity android:name=".activity.RadioButtonActivity"/>
         <activity android:name=".activity.NormalActivity"/>
+        <activity android:name=".activity.NormalViewPagerActivity"/>
     </application>
 
 </manifest>

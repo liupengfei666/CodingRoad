@@ -16,4 +16,5 @@
     <string name="contracts">通讯录</string>
     <string name="discovery">发现</string>
     <string name="me">我</string>
+    <string name="Normal_ViewPager">Normal+ViewPager</string>
 </resources>

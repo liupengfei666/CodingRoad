@@ -23,6 +23,10 @@
                 android:id="@+id/tv_normal"
                 style="@style/TextView_MatchParent"
                 android:text="@string/Normal"/>
+            <TextView
+                android:id="@+id/tv_normal_viewpager"
+                style="@style/TextView_MatchParent"
+                android:text="@string/Normal_ViewPager"/>
         </LinearLayout>
     </android.support.v4.widget.NestedScrollView>
 </layout>

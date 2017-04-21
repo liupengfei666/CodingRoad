@@ -18,7 +18,7 @@ import com.lewis.codingrode.databinding.ActBottomNavigationBinding;
 public class BottomNavigationBarActivity extends BaseActivity implements View.OnClickListener {
 
     private ActBottomNavigationBinding mBinding;
-    private TextView mBottomNavigationView, mTabLayout, mRadioButton, mNormal;
+    private TextView mBottomNavigationView, mTabLayout, mRadioButton, mNormal, mNormalViewPager;
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
@@ -33,6 +33,7 @@ public class BottomNavigationBarActivity extends BaseActivity implements View.On
         mTabLayout = mBinding.tvTabLayout;
         mRadioButton = mBinding.tvRadioButton;
         mNormal = mBinding.tvNormal;
+        mNormalViewPager = mBinding.tvBottomNavigationView;
     }
 
     private void setListener() {
@@ -40,6 +41,7 @@ public class BottomNavigationBarActivity extends BaseActivity implements View.On
         mTabLayout.setOnClickListener(this);
         mRadioButton.setOnClickListener(this);
         mNormal.setOnClickListener(this);
+        mNormalViewPager.setOnClickListener(this);
     }
 
     @Override
@@ -56,6 +58,9 @@ public class BottomNavigationBarActivity extends BaseActivity implements View.On
                 break;
             case R.id.tv_normal:
                 startActivity(NormalActivity.class);
+                break;
+            case R.id.tv_normal_viewpager:
+                startActivity(NormalViewPagerActivity.class);
                 break;
         }
     }

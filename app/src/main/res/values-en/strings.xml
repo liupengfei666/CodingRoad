@@ -15,4 +15,5 @@
     <string name="contracts">Contracts</string>
     <string name="discovery">Discovery</string>
     <string name="me">Me</string>
+    <string name="Normal_ViewPager">Normal+ViewPager</string>
 </resources>
