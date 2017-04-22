@@ -33,7 +33,7 @@ public class BottomNavigationBarActivity extends BaseActivity implements View.On
         mTabLayout = mBinding.tvTabLayout;
         mRadioButton = mBinding.tvRadioButton;
         mNormal = mBinding.tvNormal;
-        mNormalViewPager = mBinding.tvBottomNavigationView;
+        mNormalViewPager = mBinding.tvNormalViewpager;
     }
 
     private void setListener() {
