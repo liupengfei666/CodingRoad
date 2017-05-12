@@ -17,4 +17,5 @@
     <string name="discovery">发现</string>
     <string name="me">我</string>
     <string name="Normal_ViewPager">Normal+ViewPager</string>
+    <string name="qrcode">二维码</string>
 </resources>

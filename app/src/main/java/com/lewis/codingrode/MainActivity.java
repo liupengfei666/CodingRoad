@@ -17,6 +17,7 @@ import android.view.View;
 import android.widget.Button;
 
 import com.lewis.codingrode.activity.BottomNavigationBarActivity;
+import com.lewis.codingrode.activity.QRCodeSelectActivity;
 import com.lewis.codingrode.databinding.ActivityMainBinding;
 
 public class MainActivity extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener, View.OnClickListener {
@@ -25,7 +26,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
     private NavigationView mNavigationView;
     private DrawerLayout mDrawerLayout;
     private FloatingActionButton mFab;
-    private Button mBottomNavigationBar;
+    private Button mBottomNavigationBar, mQRCode;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -45,6 +46,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
             }
         });
         mBottomNavigationBar.setOnClickListener(this);
+        mQRCode.setOnClickListener(this);
     }
 
     private void initView() {
@@ -53,6 +55,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         mDrawerLayout = mMainBinding.drawerLayout;
         mFab = mMainBinding.mainLayout.fab;
         mBottomNavigationBar = mMainBinding.mainLayout.contentMain.btnBottomNavigationBar;
+        mQRCode = mMainBinding.mainLayout.contentMain.btnQrcode;
 
         mToolBar.setTitle("示例代码入口");
         setSupportActionBar(mToolBar);
@@ -100,6 +103,9 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         switch (v.getId()) {
             case R.id.btn_bottom_navigation_bar:
                 startActivity(new Intent(this, BottomNavigationBarActivity.class));
+                break;
+            case R.id.btn_qrcode:
+                startActivity(new Intent(this, QRCodeSelectActivity.class));
                 break;
         }
     }

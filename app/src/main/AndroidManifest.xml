@@ -2,6 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.lewis.codingrode">
 
+    <uses-permission android:name="android.permission.CAMERA"/>
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -22,6 +24,11 @@
         <activity android:name=".activity.RadioButtonActivity"/>
         <activity android:name=".activity.NormalActivity"/>
         <activity android:name=".activity.NormalViewPagerActivity"/>
+        <activity android:name=".activity.QRCodeSelectActivity"/>
+        <activity android:name=".activity.QRCodeActivity"
+            android:screenOrientation="portrait"
+            android:stateNotNeeded="true"
+            android:windowSoftInputMode="stateAlwaysHidden"/>
     </application>
 
 </manifest>
