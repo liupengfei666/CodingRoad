@@ -18,6 +18,7 @@ import android.widget.Button;
 
 import com.lewis.codingrode.activity.BottomNavigationBarActivity;
 import com.lewis.codingrode.activity.QRCodeSelectActivity;
+import com.lewis.codingrode.activity.RecyclerViews;
 import com.lewis.codingrode.databinding.ActivityMainBinding;
 
 public class MainActivity extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener, View.OnClickListener {
@@ -47,6 +48,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         });
         mBottomNavigationBar.setOnClickListener(this);
         mQRCode.setOnClickListener(this);
+        mMainBinding.mainLayout.contentMain.btnRecyclerView.setOnClickListener(this);
     }
 
     private void initView() {
@@ -106,6 +108,9 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
                 break;
             case R.id.btn_qrcode:
                 startActivity(new Intent(this, QRCodeSelectActivity.class));
+                break;
+            case R.id.btn_recyclerView:
+                startActivity(new Intent(this, RecyclerViews.class));
                 break;
         }
     }

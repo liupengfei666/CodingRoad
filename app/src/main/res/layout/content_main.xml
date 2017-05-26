@@ -24,6 +24,11 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/qrcode" />
+            <Button
+                android:id="@+id/btn_recyclerView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/recyclerview" />
         </LinearLayout>
     </android.support.v4.widget.NestedScrollView>
 </layout>

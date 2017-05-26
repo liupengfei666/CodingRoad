@@ -29,6 +29,8 @@
             android:screenOrientation="portrait"
             android:stateNotNeeded="true"
             android:windowSoftInputMode="stateAlwaysHidden"/>
+        <activity android:name=".activity.RecyclerViews"/>
+        <activity android:name=".activity.RecyclerViewSimple"/>
     </application>
 
 </manifest>

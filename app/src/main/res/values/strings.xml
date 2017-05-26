@@ -18,4 +18,7 @@
     <string name="me">我</string>
     <string name="Normal_ViewPager">Normal+ViewPager</string>
     <string name="qrcode">二维码</string>
+    <string name="recyclerview">RecyclerView</string>
+    <string name="simple_recyclerView">普通的RecyclerView</string>
+    <string name="advance_recyclerView">RecyclerView封装</string>
 </resources>
