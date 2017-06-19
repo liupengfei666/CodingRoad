@@ -1,12 +1,9 @@
 package com.lewis.codingrode.activity;
 
-import android.databinding.DataBindingUtil;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
-import android.support.v7.widget.GridLayoutManager;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
-import android.support.v7.widget.StaggeredGridLayoutManager;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -14,7 +11,7 @@ import android.widget.TextView;
 
 import com.lewis.codingrode.R;
 import com.lewis.codingrode.base.BaseActivity;
-import com.lewis.codingrode.databinding.ActRecyclerviewSimpleBinding;
+import com.lewis.codingrode.recyclerview.view.LinearItemDecoration;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -44,6 +41,7 @@ public class RecyclerViewSimple extends BaseActivity{
 //        mRecyclerView.setLayoutManager(new GridLayoutManager(this, 2, LinearLayoutManager.HORIZONTAL, false));
         //交错排列的布局
 //        mRecyclerView.setLayoutManager(new StaggeredGridLayoutManager(2, StaggeredGridLayoutManager.VERTICAL));
+        mRecyclerView.addItemDecoration(new LinearItemDecoration(this, LinearLayoutManager.VERTICAL));
         mRecyclerView.setAdapter(new SimpleAdapter());
     }
 

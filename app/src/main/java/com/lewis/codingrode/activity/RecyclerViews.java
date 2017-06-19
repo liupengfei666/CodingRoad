@@ -34,7 +34,7 @@ public class RecyclerViews extends BaseActivity implements View.OnClickListener{
                 startActivity(RecyclerViewSimple.class);
                 break;
             case R.id.btn_advance:
-
+                startActivity(RVEncapsulation.class);
                 break;
         }
     }
