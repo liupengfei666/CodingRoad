@@ -64,6 +64,7 @@ public class GridItemDecoration extends RecyclerView.ItemDecoration {
         for (int i = 0; i < childCount; i++) {
             View child = parent.getChildAt(i);
             RecyclerView.LayoutParams params = (RecyclerView.LayoutParams) child.getLayoutParams();
+            /*注意+ -的区别，之前用的+没理解getLeft（）*/
             int left = child.getLeft() - params.leftMargin;
             int top = child.getBottom() + params.bottomMargin;
             int right = child.getRight() + params.rightMargin + mDivider.getIntrinsicWidth();
