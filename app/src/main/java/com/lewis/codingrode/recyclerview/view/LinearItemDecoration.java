@@ -47,6 +47,11 @@ public class LinearItemDecoration extends RecyclerView.ItemDecoration {
         }
     }
 
+    /**
+     * 画上下滑动的布局分割线
+     * @param c
+     * @param parent
+     */
     private void drawVerticalDivider(Canvas c, RecyclerView parent) {
         int left = parent.getPaddingLeft();
         int right = parent.getWidth() - parent.getPaddingRight();
@@ -63,6 +68,11 @@ public class LinearItemDecoration extends RecyclerView.ItemDecoration {
         }
     }
 
+    /**
+     * 画左右滑动的布局分割线
+     * @param c
+     * @param parent
+     */
     private void drawHorizontalDivider(Canvas c, RecyclerView parent) {
         int top = parent.getPaddingTop();
         int bottom = parent.getHeight() - parent.getPaddingBottom();
